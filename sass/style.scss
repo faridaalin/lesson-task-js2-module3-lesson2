@@ -1,2 +1,39 @@
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import './variables';
+@import './typography';
 @import './base';
+@import './card';
+
+$theme-colors: ("primary": $color-parimary,
+    "dark": $color-parimary);
+
+$primary: $color-parimary;
+$input-bg: #FFFFFF;
+
+
+a:hover {
+    color: transparent !important;
+    text-decoration: unset !important;
+
+}
+
+
+.card-body {
+    background: #cc604e;
+    color: white;
+
+    .category {
+        margin-bottom: 0.4rem;
+        font-style: italic;
+        font-size: 0.8rem;
+        color: #332f2f;
+        text-transform: capitalize;
+
+    }
+
+    .card-title {
+        margin-bottom: 0.75rem;
+        color: #e0e0e0;
+        font-size: 1.4rem;
+    }
+}

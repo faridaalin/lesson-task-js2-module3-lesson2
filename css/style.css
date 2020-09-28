@@ -10799,6 +10799,20 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+h2,
+h3,
+h4,
+h5 {
+  color: #625A55;
+}
+
+h1 {
+  font-size: 1.8em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: #171616;
+}
+
 html,
 body {
   height: 100%;
@@ -10808,6 +10822,7 @@ html,
 body {
   height: 100%;
   font-family: 'Playfair Display', serif;
+  background-color: #E2CBAF;
 }
 
 body {
@@ -10830,5 +10845,35 @@ footer {
   -ms-flex-negative: 0;
       flex-shrink: 0;
   background-color: pink;
+}
+
+.bg-img {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a:hover {
+  color: transparent !important;
+  text-decoration: unset !important;
+}
+
+.card-body {
+  background: #cc604e;
+  color: white;
+}
+
+.card-body .category {
+  margin-bottom: 0.4rem;
+  font-style: italic;
+  font-size: 0.8rem;
+  color: #332f2f;
+  text-transform: capitalize;
+}
+
+.card-body .card-title {
+  margin-bottom: 0.75rem;
+  color: #e0e0e0;
+  font-size: 1.4rem;
 }
 /*# sourceMappingURL=style.css.map */
