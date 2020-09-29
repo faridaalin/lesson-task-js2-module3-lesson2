@@ -10853,9 +10853,18 @@ footer {
   background-size: cover;
 }
 
-a:hover {
-  color: transparent !important;
-  text-decoration: unset !important;
+.card {
+  -webkit-box-shadow: 0 0 20px #6b696970;
+          box-shadow: 0 0 20px #6b696970;
+  -webkit-transition: -webkit-box-shadow 0.1s ease-in-out;
+  transition: -webkit-box-shadow 0.1s ease-in-out;
+  transition: box-shadow 0.1s ease-in-out;
+  transition: box-shadow 0.1s ease-in-out, -webkit-box-shadow 0.1s ease-in-out;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0 0 20px #585858c7;
+          box-shadow: 0 0 20px #585858c7;
 }
 
 .card-body {

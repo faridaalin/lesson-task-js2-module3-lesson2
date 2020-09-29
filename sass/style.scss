@@ -11,12 +11,14 @@ $primary: $color-parimary;
 $input-bg: #FFFFFF;
 
 
-a:hover {
-    color: transparent !important;
-    text-decoration: unset !important;
-
+.card {
+    box-shadow: 0 0 20px #6b696970;
+    transition: box-shadow 0.1s ease-in-out;
 }
 
+.card:hover {
+    box-shadow: 0 0 20px #585858c7;
+}
 
 .card-body {
     background: #cc604e;
