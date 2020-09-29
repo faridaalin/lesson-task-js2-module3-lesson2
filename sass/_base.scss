@@ -23,3 +23,13 @@ footer {
     flex-shrink: 0;
     background-color: pink;
 }
+
+.bg-img {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-img--hotel {
+    max-height: 400px;
+}
