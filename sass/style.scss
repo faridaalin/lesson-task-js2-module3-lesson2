@@ -10,6 +10,19 @@ $theme-colors: ("primary": $color-parimary,
 $primary: $color-parimary;
 $input-bg: #FFFFFF;
 
+.bg-light {
+    background-color: #cc604e !important;
+}
+
+.btn-primary {
+    background-color: #dd8c7e;
+    border-color: #dd8c7e;
+}
+
+.btn-primary:hover {
+    background-color: #cc604e;
+    border-color: #cc604e;
+}
 
 .card {
     box-shadow: 0 0 20px #6b696970;

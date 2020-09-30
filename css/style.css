@@ -10857,6 +10857,20 @@ footer {
   max-height: 400px;
 }
 
+.bg-light {
+  background-color: #cc604e !important;
+}
+
+.btn-primary {
+  background-color: #dd8c7e;
+  border-color: #dd8c7e;
+}
+
+.btn-primary:hover {
+  background-color: #cc604e;
+  border-color: #cc604e;
+}
+
 .card {
   -webkit-box-shadow: 0 0 20px #6b696970;
           box-shadow: 0 0 20px #6b696970;

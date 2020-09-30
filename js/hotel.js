@@ -17,7 +17,6 @@ const hotelUrl = `${BASE_URL}/hotels/${id}`;
 })();
 
 const renderHotel = (hotel) => {
-  console.log(hotel);
   const container = document.querySelector(".container");
   const bgImage = document.querySelector(".hotel-bg");
 
